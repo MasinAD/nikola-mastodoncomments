@@ -1,7 +1,6 @@
-Use [Mastodon Comments](https://joinmastodon.org/) as a comment system.
+Use [Mastodon](https://joinmastodon.org/) as a comment system.
 
-[Mastodon Comments](https://joinmastodon.org/) is a federated microblogging network,
-based on the [ActivityPub](https://www.w3.org/TR/activitypub/) protocol.
+Mastodon is a federated microblogging network, based on the [ActivityPub](https://www.w3.org/TR/activitypub/) protocol.
 Users can respond to anchor posts in the Fediverse.
 
 The settings for Mastodon Comments can be passed to the plugin as follows:
