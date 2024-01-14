@@ -19,7 +19,11 @@ GLOBAL_CONTEXT = {
 ```
 See [this page](https://khendrikse.netlify.app/blog/find-your-mastodon-account-id/) on how to find your Mastodon account id.
 
-You need to copy the files `mastodon.js` and `mastodon.css` from `assets/files/{css,js}/` to `files/{css,js}/` respectively.
+You need to copy the files `mastodon.js` and `mastodon.css` from `assets/files/{css,js}/` to `files/{css,js}/` respectively. Additionally, it requires DOMpurify which you can install by
+```
+wget https://raw.githubusercontent.com/cure53/DOMPurify/main/dist/purify.min.js
+```
+in your `files/js` folder.
 
 This plugin is basically a port of the work for Ghost and Hugo done by
 * [Simon Detheridge](https://sd.ai/blog/2023-10-19/integrating-mastodon-and-ghost/)
