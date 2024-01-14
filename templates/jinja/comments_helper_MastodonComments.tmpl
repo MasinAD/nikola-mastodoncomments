@@ -1,0 +1,22 @@
+{#  -*- coding: utf-8 -*- #}
+{% macro comment_form(url, title, identifier) %}
+{% if comment_system_id and post.meta('mastodon') %}
+<script type="text/javascript" src="/js/mastodon.js"></script>
+<div id="mastodon-comments-list"></div>
+<script>
+MASTODON_ACCOUNT_ID = "{{ mastodon_config['account_id'] }}"
+MASTODON_ACCOUNT = "{{ mastodon_config['account'] }}"
+MASTODON_HOST = "{{ mastodon_config['host'] }}"
+MASTODON_POST_ID = "{{ post.meta('mastodon') }}"
+</script>
+{% endif %}
+{% endmacro %}
+
+{% macro comment_link(link, identifier) %}
+{% if comment_system_id %}
+<a href="{{ link }}#comment-section">{{ messages("Comments") }}</a>
+{% endif %}
+{% endmacro %}
+
+{% macro comment_link_script() %}
+{% endmacro %}
