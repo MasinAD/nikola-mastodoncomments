@@ -21,3 +21,4 @@ GLOBAL_CONTEXT = {
         }
     }
 ```
+You need to copy the files `mastodon.js` and `mastodon.css` from `assets/files/{css,js}/` to `files/{css,js}/` respectively.
