@@ -1,4 +1,4 @@
-Use [Mastodon](https://joinmastodon.org/) as a comment system.
+Use [Mastodon](https://joinmastodon.org/) as a comment system for static site generator [Nikola](https://getnikola.com).
 
 Mastodon is a federated microblogging network, based on the [ActivityPub](https://www.w3.org/TR/activitypub/) protocol.
 Users can respond to anchor posts in the Fediverse.
