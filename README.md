@@ -15,8 +15,9 @@ COMMENT_SYSTEM_ID = "<YOUR-SITE_NAME>"
 GLOBAL_CONTEXT = {
     ...
     "mastodon_config": {
-        "host": "nerdculture.de",
-        "user": "fluchtkapsel"
+        'host': 'nerdculture.de',
+        'account_id': '109270094542366763',
+        'account': 'fluchtkapsel'
         }
     }
 ```
